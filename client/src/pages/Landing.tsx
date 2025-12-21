@@ -25,9 +25,7 @@ const onSubmit = (data: any) => {
   mutation.mutate(data, {
     onSuccess: () => {
       form.reset();
-
-
-      window.location.href = "https://wa.link/tj4eso";
+       window.location.href = "https://wa.link/tj4eso";
     },
   });
 };
@@ -45,7 +43,7 @@ const onSubmit = (data: any) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
 <div className="flex items-center gap-2">
   <img
-    src="https://www.1clickbuilder.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_full.e128753d.png&w=640&q=75"
+     src="https://www.1clickbuilder.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_full.e128753d.png&w=640&q=75"
     alt="ClickBuilder Logo"
     className="w-8 h-8 rounded-lg object-contain"
   />
